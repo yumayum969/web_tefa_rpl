@@ -8,7 +8,7 @@ const Login = ({ onNavigate }) => {
   return (
     <div className="flex min-h-screen w-full bg-white overflow-hidden font-poppins">
       
-      {/* SISI KIRI: Area Ilustrasi Warna Biru (Tanpa Logo Atas) kawan */}
+      {/* SISI KIRI: Area Ilustrasi Warna Biru */}
       <div className="hidden lg:flex lg:w-1/2 bg-tefaBlue items-center justify-center p-12">
         <div className="text-center space-y-6">
           <div className="text-[130px] leading-none animate-bounce duration-1000">🖨️</div>
@@ -19,7 +19,7 @@ const Login = ({ onNavigate }) => {
         </div>
       </div>
 
-      {/* SISI KANAN: Form Login kawan */}
+      {/* SISI KANAN: Form Login */}
       <div className="w-full lg:w-1/2 flex flex-col justify-center px-8 md:px-16 lg:px-24 py-12 relative">
         {/* Tombol Tutup / Kembali ke Landing Page */}
         <button 

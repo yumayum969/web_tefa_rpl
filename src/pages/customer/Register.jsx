@@ -10,7 +10,7 @@ const Register = ({ onNavigate }) => {
   return (
     <div className="flex min-h-screen w-full bg-white overflow-hidden font-poppins">
       
-      {/* SISI KIRI: Area Ilustrasi Warna Oranye (Tanpa Logo Atas) kawan */}
+      {/* SISI KIRI: Area Ilustrasi Warna Oranye */}
       <div className="hidden lg:flex lg:w-1/2 bg-tefaOrange items-center justify-center p-12">
         <div className="text-center space-y-6">
           <div className="text-[130px] leading-none animate-pulse">📋</div>
@@ -21,7 +21,7 @@ const Register = ({ onNavigate }) => {
         </div>
       </div>
 
-      {/* SISI KANAN: Form Register kawan */}
+      {/* SISI KANAN: Form Register */}
       <div className="w-full lg:w-1/2 flex flex-col justify-center px-8 md:px-16 lg:px-24 py-12 relative overflow-y-auto">
         {/* Tombol Tutup / Kembali ke Landing Page */}
         <button 

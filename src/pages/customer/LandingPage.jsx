@@ -124,7 +124,7 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* 4. LACAK PESANAN (Ukuran Diperpanjang ke max-w-3xl & Efek Shadow Ditingkatkan) */}
+      {/* 4. LACAK PESANAN */}
       <section id="track" className="bg-white py-20 border-t border-gray-100">
         <div className="max-w-3xl mx-auto px-6 text-center space-y-6">
           <h2 className="text-3xl font-bold text-gray-800">Lacak pesanan anda</h2>

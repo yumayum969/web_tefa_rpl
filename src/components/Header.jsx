@@ -1,4 +1,4 @@
-// Menerima props onNavigate dan currentPage kawan
+// Menerima props onNavigate dan currentPage
 const Header = ({ onNavigate, currentPage }) => {
   return (
     <header className="w-full bg-white shadow-sm font-poppins sticky top-0 z-50">
